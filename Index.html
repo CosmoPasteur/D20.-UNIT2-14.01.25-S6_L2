@@ -17,65 +17,94 @@
   </head>
   <body>
     <header>
-      <nav id="navbar" class="navbar navbar-expand-sm bg-light">
-        <!-- Si adatta al 100% della larghezza della  -->
-        <div class="container-fluid">
-          <div class="row">
-            <!-- LOGO -->
-            <div class="col">
-              <img
-                src="https://seeklogo.com/images/E/Evelin_R_travel_agency-logo-F9A7A2958C-seeklogo.com.png"
-                class="img-fluid"
-                alt="logo"
-              />
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="https://seeklogo.com/images/E/Evelin_R_travel_agency-logo-F9A7A2958C-seeklogo.com.png" alt="logo" width="80px" height="auto"></a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link link-secondary active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Saldi</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Welcome Summer</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Last Minute</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Recensioni</a>
+                    </li>
+                  </ul>
             </div>
-            <div class="col navbar-text"><a class="link-secondary link-underline link-underline-opacity-0" href="#">Home</a></div>
-            <div class="col navbar-text"><a class="link-secondary link-underline link-underline-opacity-0" href="#">Saldi</a></div>
-            <div class="col navbar-text">
-              <a class="link-secondary link-underline link-underline-opacity-0" href="#">Welcome Summer</a>
-            </div>
-            <div class="col navbar-text">
-                <a class="link-secondary link-underline link-underline-opacity-0" href="#">Last Minute</a>
-            </div>
-            <div class="col navbar-text">
-              <a class="link-secondary link-underline link-underline-opacity-0" href="#">Recensioni</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <input class="col-6 bg-light" type="text" placeholder="Cerca posti da sogno" />
-              <button type="button" class="btn btn-outline-danger">Cerca</button>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <main>
-        <div class="container">
-          <div class="row">
-            <div class="col-2">
-              <h1>Eveline-R</h1>
-            </div>
-            <div class="col-10 align-center">
-              <p class="navbar-text m-1 ">- Feel the Freedom</p>
-            </div>
-            <hr />
-            <div class="row">
-              <div class="col-12">
-                <p>Scopri le destinazioni più calde del momento!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <button type="button" class="btn btn-info text-white">Prenota ora</button>
-        </div>
-        <div class="container">
-          <div class="row">
-            <h4 class="col">Saldi</h4>
-          </div>
-        </div>
-      </main>
-      <footer></footer>
+            <!-- <div class="collapse navbar-collapse" id="navbarText">
+            </div> -->
+            <input type="text" placeholder="Cerca posti da sogno">
+            <button type="button" class="btn btn-outline-danger">Cerca</button>
+        </nav>
+
     </header>
+    <main>
+        <div class="container bg-light mt-5 rounded">
+            <div class="row">
+                <div class="col-12">
+                    <p class="row col-12 m-5 pt-5 text-secondary fs-1">Eveline-R</p>
+                    <hr>
+                    <p class="text-secondary p-4">Scopri le destinazioni più calde del momento!</p>
+                </div>
+            </div>
+            <button type="button" class="fw-bold btn btn-info text-white border fs-4 fw-bold col-2 m-4 p-2">Prenota ora</button>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <p class="row p-5">Saldi</p>
+                <!-- <div class="row"> -->
+                    <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+                        <div class="col">
+                            <div class="card border border-success mb-2" >
+                                <img src="https://media.istockphoto.com/id/1470268385/it/foto/tartaruga-verde.jpg?s=2048x2048&w=is&k=20&c=0Fs1EutILvAF8Gi_DOh9iIibWdnifa3wRBVAyP4v6nM=" class="card-img-top" alt="Caraibi">
+                                <div class="card-body">
+                                  <h5 class="card-title">Titolo</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border border-success mb-2" >
+                                <img src="https://media.istockphoto.com/id/1470268385/it/foto/tartaruga-verde.jpg?s=2048x2048&w=is&k=20&c=0Fs1EutILvAF8Gi_DOh9iIibWdnifa3wRBVAyP4v6nM=" class="card-img-top" alt="Caraibi">
+                                <div class="card-body">
+                                    <h5 class="card-title">Titolo</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                               </div>
+                            </div>
+                        </div>
+
+                        <div class="card border border-success mb-2" >
+                            <img src="https://media.istockphoto.com/id/1470268385/it/foto/tartaruga-verde.jpg?s=2048x2048&w=is&k=20&c=0Fs1EutILvAF8Gi_DOh9iIibWdnifa3wRBVAyP4v6nM=" class="card-img-top" alt="Caraibi">
+                            <div class="card-body">
+                              <h5 class="card-title">Titolo</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card border border-success mb-2" >
+                            <img src="https://media.istockphoto.com/id/1470268385/it/foto/tartaruga-verde.jpg?s=2048x2048&w=is&k=20&c=0Fs1EutILvAF8Gi_DOh9iIibWdnifa3wRBVAyP4v6nM=" class="card-img-top" alt="Caraibi">
+                            <div class="card-body">
+                              <h5 class="card-title">Titolo</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
   </body>
 </html>
